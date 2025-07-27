@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7Up</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link rel="stylesheet" href="Fontawesome/css/all.css" />
+</head>
+<body>
+       <main>
+      <nav class="flex items-center justify-between bg-[#00d2c6] border-b-2 border-white px-5 py-8 sticky top-0 z-10">
+        <img src="https://www.7up.com/images/7up-logo-m.png" alt="" class="h-15"/>
+
+        <div class="max-md:hidden flex items-center gap-15">
+          <ul class="flex items-center gap-7 text-2xl text-white ">
+            <li><a href="#" class="border-b border-white/0 hover:border-white/100 transition-all duration-300">Product</a></li>
+            <li><a href="#" class="border-b border-white/0 hover:border-white/100 transition-all duration-300">Recipes</a></li>
+            <li><a href="#" class="border-b border-white/0 hover:border-white/100 transition-all duration-300">Stores </a></li>
+          </ul>
+
+          <div class="social-links flex items-center text-2xl text-white ">
+            <a href="#" class="border h-10 w-10 flex bg-white text-[#00d2c6] items-center justify-center rounded-full"><i class="fa-brands fa-facebook-f hover:animate-pulse"></i></a>
+            <a href="#" class="border h-10 w-10 flex bg-white text-[#00d2c6] items-center justify-center rounded-full"><i class="fa-brands fa-instagram hover:animate-pulse"></i></a>
+            <a href="#" class="border h-10 w-10 flex bg-white text-[#00d2c6] items-center justify-center rounded-full"><i class="fa-brands fa-tiktok hover:animate-pulse"></i></a>
+            <a href="#" class="border h-10 w-10 flex bg-white text-[#00d2c6] items-center justify-center rounded-full"><i class="fa-brands fa-x-twitter hover:animate-pulse"></i></a>
+            <a href="#" class="border h-10 w-10 flex bg-white text-[#00d2c6] items-center justify-center rounded-full"><i class="fa-brands fa-youtube hover:animate-pulse"></i></a>
+            <a href="#" class="border h-10 w-10 flex bg-white text-[#00d2c6] items-center justify-center rounded-full"><i class="fa-brands fa-pinterest-p hover:animate-pulse"></i></a>
+          </div>
+        </div>
+
+        <div class="hidden max-lg:hidden">
+          <ul>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Stores </a></li>
+          </ul>
+
+          <div class="hidden max-lg-hidden">
+           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+
+        <div class="hidden max-md:flex">
+          <a href="#" class="text-3xl text-white">
+         <i class="fa-solid fa-bars"></i>
+         </a>
+        </div>
+      </nav>
+
+ 
+
+      <!-- add a background image when styling on your css -->
+      <div class="relative flex justify-center lg:justify-start">
+        <img src="https://www.7up.com/images/simple-7up/tropical-header.png" alt="" class="max-lg:hidden">
+
+        <img src="https://www.7up.com/images/simple-7up/tropical-header-mobile.png" alt="" class="hidden max-lg:flex">
+
+
+        <div class="absolute flex flex-col gap-8 bottom-0 mb-10 items-center lg:items-start lg:top-60  lg:pl-15   ">
+          <h1 class="text-5xl text-white text-center font-extrabold md:text-7xl lg:text-left lg:text-5xl">A VACATION FOR <br> YOUR TASTE BUDS</h1>
+          <a href="#" class="border-2 text-xl px-8 py-2 rounded-full w-fit border-white text-white">Learn More</a>
+        </div>
+      </div>
+
+
+      
+      <div class="relative flex justify-center items-center">
+
+        <img src="https://www.7up.com/images/simple-7up/image2.png" alt="" class="max-lg:hidden">
+
+        <img src="https://www.7up.com/images/simple-7up/recipes.jpg" alt="" class="hidden max-lg:flex">
+
+        <div class="absolute  rounded-full flex flex-col items-center gap-5 justify-center bg-green-900/80 px-10 py-4  md:px-25 md:py-10">
+          <h3 class="text-4xl text-white font-bold">RECIPES</h3>
+          <p class="text-white">Bake, shake, and stir some uptimism into your day</p>
+          <a href="#" class="border-2 text-xl px-8 py-2 rounded-full w-fit border-white text-white">View Recipes</a>
+        </div>
+      </div>
+
+
+      <div class="relative flex justify-center items-center">
+
+        <img src="https://www.7up.com/images/simple-7up/image1.png" alt="" class="max-lg:hidden">
+
+        <img src="https://www.7up.com/images/simple-7up/storeLocator.jpg" alt="" class="hidden max-lg:flex">
+        <div class="absolute rounded-full flex flex-col items-center gap-5 justify-center bg-green-900/80 px-10 py-5  md:px-25 md:py-10">
+          <h3 class=" text-3xl text-white font-bold md:text-4xl">STORE LOCATOR</h3>
+          <p class="text-white">
+            Find your favorite flavors of uptimism and keep your glass
+            half-full.
+          </p>
+          <a href="#" class="border-2 text-xl px-8 py-2 rounded-full w-fit border-white text-white">Find Products</a>
+        </div>
+      </div>
+      
+    </main>
+
+
+
+    <footer class="bg-black/80 flex flex-col items-center gap-3 pb-20 ">
+      <ul class="grid grid-cols-2 pl-2 gap-2  md:flex md:items-center md:gap-6">
+        <li><a href="#" class="text-[10px] text-white">Privacy Policy</a></li>
+        <li><a href="#" class="text-[10px] text-white">CA Notice at Collection</a></li>
+        <li><a href="#" class="text-[10px] text-white">Do Not Sell or Share My Personal Information</a></li>
+        <li><a href="#" class="text-[10px] text-white">Terms of Use</a></li>
+        <li><a href="#" class="text-[10px] text-white">Accessibility</a></li>
+        <li><a href="#" class="text-[10px] text-white">Contact</a></li>
+        <li><a href="#" class="text-[10px] text-white">FAQ</a></li>
+        <li><a href="#" class="text-[10px] text-white">Carrers</a></li>
+      </ul>
+
+      <p class="text-[10px] text-white">
+        7UP and BE UPTIMISTIC are trademarks of Dr Pepper/Seven Up Inc. © 2024
+        Dr Pepper/Seven Up, Inc.
+      </p>
+    </footer>
+</body>
+</html>
